@@ -1,0 +1,50 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: large;
+}
+.navbar p {
+  background: teal;
+}
+.phone number {
+  padding: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background-color: burlywood;
+  border-radius: 10px;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(225, 209, 67, 1) 0%,
+    rgba(225, 145, 83, 1) 90%
+  );
+}
+.parent {
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border: 1px cadetblue;
+  border-radius: 20px;
+}
+#image {
+  padding: 10px;
+  background-color: black;
+}
+
+p {
+  background-color: black;
+}
+img {
+  padding: 5%;
+  align-self: center;
+  border-radius: 20px;
+}
